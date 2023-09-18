@@ -5,7 +5,13 @@ module.exports = {
 		extend: {
 			gridTemplateColumns: {
 				'auto-fit': 'repeat(auto-fit, minmax(24ch, 1fr))'
-			}
+			},
+			colors: {
+				'accent-light': '#e0ccfa'
+			},
+			maxWidth: {
+				'semifull': '50%'
+			},
 		},
 	},
 	plugins: [],

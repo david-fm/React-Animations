@@ -11,7 +11,7 @@ export default function Card(props: CardProps) {
 	
 	return (
 
-		<li className={styles.linkCard} style={props.style}>
+		<li className={`${styles.linkCard} mx-auto bg-accent-light`} style={props.style}>
 			<a href={props.href}>
 				<h2>
 					{props.title}
